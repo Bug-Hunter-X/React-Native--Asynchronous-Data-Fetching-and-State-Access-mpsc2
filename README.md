@@ -1,0 +1,3 @@
+# React Native Asynchronous Data Fetching Error
+
+This repository demonstrates a common error in React Native applications involving accessing state data before it's been fully fetched asynchronously.  The `bug.js` file shows the erroneous code, attempting to access data before it's ready.  The solution, implemented in `bugSolution.js`, utilizes the `useEffect` hook and a loading state to handle asynchronous operations correctly.
